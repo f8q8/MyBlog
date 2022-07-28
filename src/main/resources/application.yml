@@ -1,0 +1,10 @@
+server:
+  port: 8800
+spring:
+  profiles:
+    active: dev
+  datasource:
+    hikari:
+      pool-name: MyHikariPool
+      maximum-pool-size: 20
+      minimum-idle: 2
